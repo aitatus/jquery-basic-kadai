@@ -1,5 +1,5 @@
 $(function () {
     $('.btn').on('click', () => {
-        console.log($('[name="text"]').val());
+        $('.text-box').val('クリックしました！');
     });
 });
